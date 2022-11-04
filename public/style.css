@@ -1,0 +1,96 @@
+body{
+    background-color: #b3d4bb;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    background-color: #13882a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+li a:hover{
+    color: rgb(188, 188, 188);
+}
+
+#container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+#judul {
+    margin-top: -8px;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    width: 195px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 10px;
+    margin: 30px;
+}
+
+.items p, b {
+    margin-left: 10px;
+}
+
+.nama {
+    margin-top: 3px;
+    font-size: medium;
+}
+
+button {
+    background-color: #13882a;
+    color: white;
+    border: none;
+    padding: 7px;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #096c1d;
+}
+
+#logo {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 187px;
+}
+
+.center{
+    text-align: center;
+    display: block;
+}
